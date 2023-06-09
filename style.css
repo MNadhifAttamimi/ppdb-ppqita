@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tulisan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button1 {
+    padding: 5px;
+    background-color: #0554f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+
+}
+
+.bag-1 {
+    background-color: #ededed;
+}
+
+.bag-2 {
+    text-align: center;
+    color: white;
+    background-color: #006eff;
+    margin-bottom: 40px;
+    margin-top: -22px;
+
+}
+
+.button2 {
+    padding: 12px;
+    background-color: #0554f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.bag-3 {
+    background-color: white;
+    text-align: center;
+}
+
+.pendaftaran {
+    font-size: 30px;
+}
+
+.bag-4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.bag-5 {
+    text-align: center;
+}
+
+.syarat {
+    font-size: 30px;
+}
+
+.bag-6 {
+    text-align: center;
+    padding: 20px;
+}
+
+.sosmed {
+    text-align: center;
+}
+
+.logo2 {
+    width: 20%;
+}
+
+footer {
+    background-color: #F1F5FA;
+    padding: 10px;
+}
