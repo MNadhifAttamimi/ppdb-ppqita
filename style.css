@@ -1,24 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 body {
     margin: 0;
     padding: 0;
     font-family: inter;
 }
 
-
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navimenu {
+    display: flex;
+    text-align: center;
+}
+
+.navimenu a {
+    display: none;
 }
 
 .tulisan {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.tulisan2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.isi1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .button1 {
@@ -28,11 +51,23 @@ body {
     border: none;
     border-radius: 8px;
     width: 80px;
-
 }
 
 .bag-1 {
     background-color: #ededed;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+}
+
+.tulisan i {
+    display: block;
 }
 
 .bag-2 {
@@ -41,7 +76,6 @@ body {
     background-color: #006eff;
     margin-bottom: 40px;
     margin-top: -22px;
-
 }
 
 .button2 {
@@ -51,11 +85,15 @@ body {
     border: none;
     border-radius: 8px;
     margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 18px;
 }
 
 .bag-3 {
     background-color: white;
     text-align: center;
+    margin-top: 100px;
 }
 
 .pendaftaran {
@@ -64,11 +102,14 @@ body {
 
 .bag-4 {
     text-align: center;
-    padding: 20px;
+    padding-right: 25px;
+    margin-top: 40px;
 }
 
 .bag-5 {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .syarat {
@@ -77,11 +118,13 @@ body {
 
 .bag-6 {
     text-align: center;
-    padding: 20px;
+    padding-right: 30px;
 }
 
 .sosmed {
+    display: block;
     text-align: center;
+    margin-top: 50px;
 }
 
 .logo2 {
@@ -89,6 +132,177 @@ body {
 }
 
 footer {
-    background-color: #F1F5FA;
+    background-color: #f1f5fa;
     padding: 10px;
+}
+
+.hero {
+    display: none;
+}
+
+.numlima {
+    display: none;
+}
+
+.numlima1 {
+    display: block;
+}
+
+.alur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.syaratflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nilainon {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 8px 0px grey;
+    margin-bottom: 20px;
+    gap: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.nilaion {
+    display: none;
+    justify-content: center;
+}
+
+.footflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (min-width: 1024px) {
+    .tulisan2 {
+        display: flex;
+    }
+
+    .sosmed {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 45px;
+        margin-top: 0;
+    }
+
+    .footflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .syaratflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nilaion {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nilainon {
+        display: none;
+        align-items: center;
+        padding: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 0px 0px 8px 0px grey;
+        margin-bottom: 20px;
+        gap: 10px;
+        margin-left: 40px;
+        border-radius: 5px;
+    }
+
+    .hero {
+        display: block;
+    }
+
+    .hero img {
+        border-radius: 10px;
+        margin-top: 35px;
+    }
+
+    .bag-1 {
+        margin-bottom: 22px;
+    }
+
+    .navbar {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .navimenu a {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    .tulisan i {
+        display: none;
+    }
+
+    .bag-2 {
+        padding: 10px 0px 10px 10px;
+    }
+
+    .isi1 {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .PPDBH1 {
+        font-size: 50px;
+    }
+
+    .numlima {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .numlima1 {
+        display: none;
+    }
+
+    .alur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        background-color: #0554f2;
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .tulisan2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 57px;
+        margin-bottom: 57px;
+    }
+
+    .isi1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
